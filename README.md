@@ -6,7 +6,7 @@
 
 ---
 
-![RICK Y MORTY] (https://tinyurl.com/ycxvwhck)
+!![Rick y morty](https://tinyurl.com/ycxvwhck)
 
 [ADSO FILES DRIVE](https://tinyurl.com/ycxvwhck)
 
