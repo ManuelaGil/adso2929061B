@@ -1,0 +1,175 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>09 - Tables</title>
+<link rel="stylesheet" href="../css/styles.css">
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        thead,
+        tfoot {
+            th, td {
+                background: rgba(23, 143, 2, 0.8);
+                border: 1px solid rgba(0, 1, 0, 0.6);
+                text-align: center;
+                padding: 4px;
+            }
+        }
+        tbody{
+            td {
+                background-color: rgba(122, 247, 108, 0.317);
+                border: 1px solid rgba(0, 0, 0, 0.6);
+                font-size: 0.8rem;
+                padding: 4px;
+            }
+            tr:nth-of-type(even) {
+                td {
+                    background: rgba(40, 215, 60, 0.435);
+                }
+            } 
+        }
+    }
+</style>
+</head>
+<body class="html">
+<nav>
+@@ -16,11 +44,56 @@
+    <header>
+        <h1>09 - Tables</h1>
+        <p>
+            xxxxx
+            This tag allows you to create a table.
+        </p>
+    </header>
+    <section>
+      xxxxxx
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>FullName</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Homer Simpson</td>
+                    <td>01123001</td>
+                    <td>homer@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Marge Simpson</td>
+                    <td>01123002</td>
+                    <td>marge@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Marge Simpson</td>
+                    <td>01123003</td>
+                    <td>marge@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Marge Simpson</td>
+                    <td>01123004</td>
+                    <td>marge@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Magie Simpson</td>
+                    <td>01123005</td>
+                    <td>magie@gmail.com</td>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Simpson Family</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</main>
+
+63 changes: 61 additions & 2 deletions63  
+02-html/10-challenge-tables.html
+Original file line number	Diff line number	Diff line change
+@@ -5,6 +5,24 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10 - Challenge/tables</title>
+<link rel="stylesheet" href="../css/styles.css">
+<style>
+    table {
+        border-collapse: collapse;
+        height: 370px;
+        width: 370px;
+        td{
+            padding: 10px;
+            background: rgba(3, 113, 117, 0.6);
+            border: 2px solid #0009;
+            text-align: center;
+        }
+        tr:nth-of-type(even) {
+                td {
+                    background: rgba(34, 200, 166, 0.435);
+                }
+            }
+    }
+</style>
+</head>
+<body class="html">
+<nav>
+@@ -16,11 +34,52 @@
+    <header>
+        <h1>10 - Challenge/tables</h1>
+        <p>
+            xxxxx
+            Solved
+        </p>
+    </header>
+    <section>
+      xxxxxx
+      <table>
+                <td>X</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td colspan="4"></td>
+
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td colspan="3"></td>
+
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+        </tr>
+      </table>
+    </section>
+</main>
